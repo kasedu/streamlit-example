@@ -35,7 +35,7 @@ st.latex(r''' a + b + c = ''')
 
 d = sp.Symbol('d')
 
-st.write(‘a = {}’.format(a))
+st.write('a = {}'.format(a))
 
 t = 5
 
