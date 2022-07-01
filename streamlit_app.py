@@ -35,7 +35,13 @@ st.latex(r''' a + b + c = ''')
 
 d = sp.Symbol('d')
 
-write(sympy_expr, d)
+st.write(‘a = {}’.format(a))
+
+t = 5
+
+st.latex(r'''\theta_b='''+ rf'''{t} ''')
+
+st.write(sympy_expr, d)
 
 with st.echo(code_location='below'):
     tp = st.slider("Number of points in spiral", 1, 5000, 2000)
