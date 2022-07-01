@@ -3,6 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import symppy as sp
 
 """
 # Welcome to Streamlit!
@@ -32,7 +33,7 @@ st.write('a + b + c =', a + b + c)
 
 st.latex(r''' a + b + c = ''')
 
-write(sympy_expr, a)
+write(sympy_expr, d)
 
 with st.echo(code_location='below'):
     tp = st.slider("Number of points in spiral", 1, 5000, 2000)
