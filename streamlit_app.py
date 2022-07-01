@@ -40,6 +40,3 @@ with st.echo(code_location='below'):
         print(data)
         print(x, y, x+y)
         st.text(data)
-        st.text(x, y)
-
-
