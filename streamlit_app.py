@@ -32,7 +32,7 @@ with st.echo(code_location='below'):
         x = curr_point_num
         y = curr_point_num/2
         data.append(x)
-    print(data)
-    print(x, y, x+y)
+        print(data)
+        print(x, y, x+y)
 
 
