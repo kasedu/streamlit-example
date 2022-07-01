@@ -29,10 +29,9 @@ st.write('The current movie title is', title)
 
 st.write('1 + 1 = ', 2)
 st.write('a + b + c =', a + b + c) 
+st.write(st.latex(r''' a + b + c = '''), a + b + c)
 
-st.latex(r'''
-     a + b + c = 
-     ''')
+st.latex(r''' a + b + c = ''')
 
 with st.echo(code_location='below'):
     tp = st.slider("Number of points in spiral", 1, 5000, 2000)
