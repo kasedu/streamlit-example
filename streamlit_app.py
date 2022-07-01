@@ -33,7 +33,7 @@ st.write('a + b + c =', a + b + c)
 
 st.latex(r''' a + b + c = ''')
 
-d  sp.ymbol('d')
+d = sp.Symbol('d')
 
 write(sympy_expr, d)
 
