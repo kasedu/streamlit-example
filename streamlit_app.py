@@ -44,8 +44,8 @@ st.latex(r'''\theta_b='''+ rf'''{t} ''')
 st.write(d)
 
 with st.echo(code_location='below'):
-    tp = st.slider("Number of points in spiral", 1, 5000, 2000)
-    nt = st.slider("Number of turns in spiral", 1, 100, 9)
+    tp = st.slider("Number of points in spiral", 1, 2, 3)
+    nt = st.slider("Number of turns in spiral", 1, 10, 3)
 
     #Point = namedtuple('Point', 'x y')
     data = []
