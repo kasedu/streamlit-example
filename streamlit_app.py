@@ -31,7 +31,7 @@ with st.echo(code_location='below'):
         #radius = curr_point_num / total_points
         #x = radius * math.cos(angle)
         #y = radius * math.sin(angle)
-        data.append(tp, tp)
+        data.append(curr_point_num, curr_point_num)
 
     st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
         .mark_circle(color='#0068c9', opacity=0.5)
