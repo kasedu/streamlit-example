@@ -15,6 +15,11 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
+st.latex(r'''
+     a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+     \sum_{k=0}^{n-1} ar^k =
+     a \left(\frac{1-r^{n}}{1-r}\right)
+     ''')
 
 with st.echo(code_location='below'):
     tp = st.slider("Number of points in spiral", 1, 5000, 2000)
@@ -34,5 +39,7 @@ with st.echo(code_location='below'):
         data.append(x)
         print(data)
         print(x, y, x+y)
+        st.text(data)
+        st.text(x, y, x+y)
 
 
