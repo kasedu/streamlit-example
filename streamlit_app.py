@@ -32,6 +32,8 @@ st.write('a + b + c =', a + b + c)
 
 st.latex(r''' a + b + c = ''')
 
+write(sympy_expr, a)
+
 with st.echo(code_location='below'):
     tp = st.slider("Number of points in spiral", 1, 5000, 2000)
     nt = st.slider("Number of turns in spiral", 1, 100, 9)
