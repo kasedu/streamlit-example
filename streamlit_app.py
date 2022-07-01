@@ -3,7 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
-import symppy as sp
+import sympy as sp
 
 """
 # Welcome to Streamlit!
