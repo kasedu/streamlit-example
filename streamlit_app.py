@@ -23,6 +23,13 @@ st.latex(r'''
 a = 1
 b = 2
 c = 3
+
+title = st.text_input('Movie title', 'Life of Brian')
+st.write('The current movie title is', title)
+
+st.write('1 + 1 = ', 2)
+st.write('a + b + c =', a + b + c) 
+
 st.latex(r'''
      a + b + c = 
      ''')
