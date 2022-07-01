@@ -29,7 +29,6 @@ st.write('The current movie title is', title)
 
 st.write('1 + 1 = ', 2)
 st.write('a + b + c =', a + b + c) 
-st.write('st.latex', st.latex(r''' a + b + c = '''))
 
 st.latex(r''' a + b + c = ''')
 
